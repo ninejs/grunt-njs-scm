@@ -1,0 +1,31 @@
+{
+  "name": "grunt-njs-scm",
+  "description": "NineJs - Grunt plugin for source control",
+  "version": "0.0.1",
+  "author": "Eduardo Burgos <eburgos@gmail.com>",
+   "repository": {
+    "type": "git",
+    "url": "ssh://git@bitbucket.org/ninejs/grunt-njs-scm.git"
+  },
+  "main": "Gruntfile.js",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "grunt": "git://github.com/gruntjs/grunt.git",
+    "grunt-contrib-jshint": "*",
+    "grunt-mocha-test": "*",
+    "mocha": "*",
+    "stylus": "*",
+    "nib": "*",
+    "fluidity": "*",
+    "grunt-contrib-watch": "~0.2.0rc7",
+    "underscore": "*"
+  },
+  "component": {
+    "scripts": {}
+  },
+  "scripts": {
+    "prepublish": "npm prune"
+  }
+}
